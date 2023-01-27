@@ -13,3 +13,7 @@ For more information on the benchmarks and a comparison with Spark-Dataproc and 
 >   bq load --source_format PARQUET tpcds_1TB.item gs://beam-tpcds/datasets/parquet/nonpartitioned/1000GB/item/part*.snappy.parquet
 3. Edit the _Parameters.java_ file and fill the TODOs. Make sure that the regions between the BigQuery dataset, the GCS bucket and where the Dataflow code runs are aligned.
 4. Launch the Main class
+
+### About this Git repository
+This code is provided by CTS as an example. It is not meant to be run in any "production environment", and CTS does not aim to maintain it.
+For these reasons, we won't accept any Pull Request.
