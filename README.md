@@ -1,7 +1,7 @@
 This repository is a free implementation of the TPC-DS Query #3 benchmark
 (see: https://beam.apache.org/documentation/sdks/java/testing/tpcds/).
 
-For more information on the benchmarks and a comparison with Spark-Dataproc and Google BigQuery, check this blog: TODO
+For more information on the benchmarks and a comparison with Spark-Dataproc and Google BigQuery, check this blog: https://medium.com/cts-technologies/bigquery-spark-or-dataflow-a-story-of-speed-and-other-comparisons-fb1b8fea3619
 
 ### How to launch the benchmark
 1. In your Google project, create a BigQuery dataset
